@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My Page</title>
-</head>
-<body>
-This is a test file.
-</body>
+
+   <head>
+      <title>HTML Frames</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+  <!--  <script type="text/javascript">
+      var person = window.prompt("Please Enter Your Name:");
+      alert('Welcome to TutorialsBee ' + person);
+   </script>
+	 -->
+      <frameset rows = "9%,7.5%,76.5%,7%" frameborder="no" >
+         <frameset cols = "75%,25%">
+            <frame name = "top" src = "header.html" scrolling="no" />
+            <frame name = "top-right" src="socialMediaLink.html" scrolling="no"></frame>
+         </frameset>
+            <frame name = "top" src = "navbar.html" scrolling="no" />
+         <frameset cols="75%,25% ">
+            <!-- <frame name = "frame-man" src = "left-side.html" scrolling="no" /> -->
+            <frame name = "frame-main" src = "home.html" />
+            <frame name = "frame-man" src = "right-side.html" scrolling="no" />
+         </frameset>
+         
+         <frame name = "bottom" src = "footer.html" />     
+      </frameset>
+
 </html>
+

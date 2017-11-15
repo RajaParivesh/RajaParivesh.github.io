@@ -1,0 +1,148 @@
+body{
+		background-image: url("background14.jpg");
+        /*background-color: white;*/
+		margin: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+	}
+img{
+    border:2px solid white;
+}
+img:hover{
+    border:.1px solid black;
+}
+.head-banner{
+	
+}
+.header-logo{
+	float: left;
+	padding-right: 40px; 
+}
+.header-name{
+}
+
+.navbar{
+	background-color: #333;
+    overflow: hidden;
+}
+.navbar a{
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+	color: red;
+	background-color: #ddd;
+}
+.navbar footer,li{	
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline; 
+}
+.topper-student{
+	float: right;
+	margin-right: 40px;
+}
+header{
+	padding:10px 40px 0px 40px;
+	margin: -20px 0px 0px 0px;
+	
+}
+.body{
+padding: 0px 40px 0px 40px;
+}
+.time-table{
+	float: left;
+}
+table, th, td {
+	margin-left: 40px;
+	margin-right: 25px;
+    text-align: center;
+	padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color:#ddc;
+	border: 1px solid grey;
+	height: 45px;
+}
+.time-table h1{
+	margin-left: 40px;
+}
+.slider-holder
+{
+    width: 90%;
+    height: 400px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.image-holder
+{
+    width: 2400px;
+    background-color: red;
+    height: 400px;
+    clear: both;
+    position: relative;
+    
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slider-image
+{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#slider-image-1:target ~ .image-holder
+{
+    left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+    left: -800px;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+    left: -1600px;
+}
+
+.button-holder
+{
+    position: relative;
+    top: -20px;
+}
+
+.slider-change
+{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: brown;
+}
+.lmargin{
+    margin-left:55px;
+    margin-right:55px;
+}
